@@ -1,0 +1,8 @@
+--Create a grocery store database
+
+CREATE TABLE books (id INTEGER PRIMARY KEY, name TEXT, rating INTEGER);
+
+INSERT INTO books VALUES (1, 'Lord of the rings', 3);
+INSERT INTO books VALUES (2, 'Will', 4);
+INSERT INTO books VALUES (3, 'Finding me', 1);
+SELECT * FROM books;
